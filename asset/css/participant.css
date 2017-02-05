@@ -1,0 +1,71 @@
+.profile-offset{
+	width: 320px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: #fff;
+   position: relative;
+  padding:8px;
+  float:left;
+  	font-family: 'gothic';
+	cursor:pointer;
+	
+		 -webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+  
+}
+
+.profile-offset:hover {
+ 	-webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+    transform:scale(1.01);
+	}	
+	
+	
+ .profile-list-img{
+	 width:35px;
+	 border-radius:100px;
+	 float:left;
+	 margin-top:5px;
+
+	 } 
+
+ .profile-details{
+	 width:165px;
+	 height:50px;
+	
+	 float:left;
+	 padding-top:10px;
+	 	 overflow:hidden;
+	 } 	 
+.sort-by{
+	width:100px;
+	float:left;
+	}
+	 
+ .clap-details{
+	 width:100px;
+	 height:50px;
+	 float:left;
+	 	 padding-top:11px;
+	 	 overflow:hidden;
+	 }
+	  	 	 
+.profile-det-name{
+	width:165px;
+	
+	
+	font-size:11px;
+	margin-left:5px;
+	}	 
+.clap-view{
+	font-size:11px;
+	}	
+.profile-det-join{
+	font-size:9px;
+	margin-left:5px;
+	}	

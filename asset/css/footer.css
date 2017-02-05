@@ -1,0 +1,30 @@
+.bottom-nav {
+  width: 100%;
+  height: auto;
+  padding-top:5px;
+ clear:both;
+  margin-bottom:0px;
+  background:#fff;
+  float:left;
+  display:block;
+  color:#bbb;
+
+}
+.navbar{
+	width: 980px;
+  height: 25px;
+  background:#fff;
+  float:left;
+ 
+	}
+
+body
+{
+background-image: url("../image/opening_page_bg.jpg");
+background-repeat: no-repeat; 
+background-position: center;
+background-size:cover; 
+}
+
+
+
