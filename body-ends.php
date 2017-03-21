@@ -1,5 +1,2 @@
-
-
-
 </div>
 <!--mainbody ends-->

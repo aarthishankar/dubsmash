@@ -6,11 +6,11 @@
 <style type="text/css">
 <!--
 body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #FFF;
-	margin: 0;
-	padding: 0;
-	color: #000;
+font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+      background-color: #FFF;
+margin: 0;
+padding: 0;
+color: #000;
 }
 
 </style>
@@ -38,20 +38,20 @@ body {
 </div>
 
 
-  <table  align="center">
-  <tbody>
-  <tr>
-  <td>
-    <?php include"header.php" ?>
-    
-     <?php include"body-starts.php" ?>
-     
-     <?php include"body-ends.php" ?>
-   
-   
-     <?php include"footer.php" ?>
-   </div>
- 
+<table  align="center">
+<tbody>
+<tr>
+<td>
+<?php include"header.php" ?>
+
+<?php include"body-starts.php" ?>
+
+<?php include"body-ends.php" ?>
+
+
+<?php include"footer.php" ?>
+</div>
+
 </td> </tr></tbody></table>
 
 </body>

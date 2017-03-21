@@ -19,8 +19,6 @@
           <h4> 3.The winner(contestant) must come in person to collect the Prize.  </h4>
           <h4> 4.Usage of videos performed by others won’t be counted and can lead to disqualification </h4>
           <h4> 5.The contestant will be banned incase of uploading vulgar/inappropriate content.  </h4>
-
-      
          </div>
       </div>
     </div>

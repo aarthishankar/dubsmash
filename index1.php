@@ -6,11 +6,11 @@
 <style type="text/css">
 <!--
 body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #FFF;
-	margin: 0;
-	padding: 0;
-	color: #000;
+font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+      background-color: #FFF;
+margin: 0;
+padding: 0;
+color: #000;
 }
 
 </style>
@@ -22,22 +22,22 @@ body {
 <body>
 
 
-  <table  align="center">
-  <tbody>
-  <tr>
-  <td>
-  <div class="main-body">
-    <?php include"header.php" ?>
-    
-     <?php include"body-starts.php" ?>
-     
-     
-      <?php include"body-ends.php" ?>
-   
-   </div>
+<table  align="center">
+<tbody>
+<tr>
+<td>
+<div class="main-body">
+<?php include"header.php" ?>
+
+<?php include"body-starts.php" ?>
 
 
- 
+<?php include"body-ends.php" ?>
+
+</div>
+
+
+
 </td> </tr></tbody></table>
 
 </body>

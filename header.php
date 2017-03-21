@@ -77,7 +77,7 @@
 		 
 	 ?>
 <div class="pull-right logout" >
-<img src="http://www.littleshows.com/profile/<?php echo $_SESSION['u_id']; ?>/001.png" class="pull-right" style="border-radius:200px; width:50px; height:50px; " />
+<img src="http://139.59.27.207/profile/<?php echo $_SESSION['u_id']; ?>/001.png" class="pull-right" style="border-radius:200px; width:50px; height:50px; " />
 <h1 class="pull-right loginerName"><?php echo $_SESSION['u_name']; ?></h1>
 <br></br>
 <div class="pull-right  white-back">

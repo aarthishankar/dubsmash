@@ -201,7 +201,7 @@ body {
      <!--profile-display-->
      <div class="profile-display" >
      <div class="profile-logo-space">
-     <img src="http://www.littleshows.com/profile/<?php echo $little_id; ?>/001.png" style="width:200px; height:200px; border-radius:300px;" />
+     <img src="http://139.59.27.207/profile/<?php echo $little_id; ?>/001.png" style="width:200px; height:200px; border-radius:300px;" />
 
      <h3 class="text-center"><?php echo $contestor_name; ?></h3>
      <h5 class="text-center ">Joined on <?php  $date = strtotime($joining_date); echo date('jS F', $date);  ?></h5>
@@ -665,7 +665,7 @@ var via="";
   'me/littleshows:clap',
   'post',
   {
-    dubsmash_video: "littleshows.com/dubsmash-competition/video/dubsmash.php?mov_id="+mov_idd
+    dubsmash_video: "littleshows.com/dubsmash/video/dubsmash.php?mov_id="+mov_idd
   },
   function(response) {
     // handle the response
@@ -715,7 +715,7 @@ $("#share_video").click(function(e) {
  
 FB.ui({
   method: 'feed',
-  link: 'http://www.littleshows.com/dubsmash/profile.php?contest='+id_prof,
+  link: 'http://139.59.27.207/dubsmash/profile.php?contest='+id_prof,
   caption: 'Littleshows Shortfilms',
   picture:img
 }, function(response){});
@@ -749,7 +749,7 @@ if(sdk_load==5){
 	
 	
 	//alert($(this).attr('movie-id'));
-	var mov_id = "http://www.littleshows.com/dubsmash/video/" + $(this).attr('movie-id');
+	var mov_id = "http://139.59.27.207/dubsmash/video/" + $(this).attr('movie-id');
 	$('#myModal .modal-header #myModalLabel').html($(this).attr('movie-name'))
 	$('#myModal .modal-header #myModalTag').html($(this).attr('movie-tags'))
 	$('#myModal .modal-body .fb-comments').attr('data-href', mov_id);

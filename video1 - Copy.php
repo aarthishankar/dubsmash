@@ -264,7 +264,7 @@ var little_id="";
 $("#clap_it").click(function(e) {
 	
  var mov_idd=$("#mov_id4clap").html();
-var link_movie="http://www.littleshows.com/dubsmash-competition/share_video.php?mov_id="+mov_idd; 
+var link_movie="http://139.59.27.207/dubsmash/share_video.php?mov_id="+mov_idd; 
 var via="";
 	<?php
 	if(isset($_SESSION['u_id'])){
@@ -394,7 +394,7 @@ FB.api('/me', function(response) {
  $("#facebook_clap").click(function(e) {
 	 
  var mov_idd=$("#mov_id4clap").html();
- link_movie="http://www.littleshows.com/dubsmash-competition/share_video.php?mov_id="+mov_idd;
+ link_movie="http://139.59.27.207/dubsmash/share_video.php?mov_id="+mov_idd;
  
 	 	 FB.login(function(response) {
 			
@@ -489,7 +489,7 @@ $("#share_video").click(function(e) {
  
 FB.ui({
   method: 'feed',
-  link: 'http://www.littleshows.com/dubsmash-competition/profile.php?contest='+id_prof,
+  link: 'http://139.59.27.207/dubsmash/profile.php?contest='+id_prof,
   caption: 'Littleshows Shortfilms',
   picture:img
 }, function(response){});
@@ -510,7 +510,7 @@ $(document).on('click', '#launchModal', function(){
 	
 	
 	//alert($(this).attr('movie-id'));
-	var mov_id = "http://www.littleshows.com/dubsmash-competition/share_video.php?mov_id=" + $(this).attr('movie-id');
+	var mov_id = "http://139.59.27.207/dubsmash/share_video.php?mov_id=" + $(this).attr('movie-id');
 	$('#myModal .modal-header #myModalLabel').html($(this).attr('movie-name'));
 	$('#myModal .modal-header #myModalTag').html($(this).attr('movie-tags'));
 	//alert($(this).attr('contest-name'));
@@ -567,7 +567,7 @@ $(document).on('click', '#launchModal1', function(){
 	
 	//FB.XFBML.parse();
 	//alert($(this).attr('movie-id'));
-	var mov_id = "http://www.littleshows.com/dubsmash-competition/share_video.php?mov_id=" + $(this).attr('movie-id');
+	var mov_id = "http://139.59.27.207/dubsmash/share_video.php?mov_id=" + $(this).attr('movie-id');
 	$('#myModal .modal-header #myModalLabel').html($(this).attr('movie-name'))
 	$('#myModal .modal-header #myModalTag').html($(this).attr('movie-tags'));
 	
